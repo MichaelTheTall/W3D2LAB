@@ -94,7 +94,7 @@ class Bounty
       if check == []
         return nil
       else
-        return check
+        return check[0]
       end
     end
 
