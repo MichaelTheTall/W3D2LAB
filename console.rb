@@ -10,25 +10,25 @@ bounty1 = Bounty.new({
   'fav_weapon' => "A big stick"
   })
 
-bounty2 = Bounty.new({
-  'name' => "Evil Steve",
-  'bounty' => "65000",
-  'danger' => "high",
-  'fav_weapon' => "Trombone"
-  })
+  bounty2 = Bounty.new({
+    'name' => "Evil Steve",
+    'bounty' => "65000",
+    'danger' => "high",
+    'fav_weapon' => "Trombone"
+    })
 
-bounty3 = Bounty.new({
-  'name' => "Minging Kevin",
-  'bounty' => "10",
-  'danger' => "low",
-  'fav_weapon' => "Body odour"
-  })
+    bounty3 = Bounty.new({
+      'name' => "Minging Kevin",
+      'bounty' => "10",
+      'danger' => "low",
+      'fav_weapon' => "Body odour"
+      })
 
-bounty1.save()
-bounty2.save()
-bounty3.save()
+      bounty1.save()
+      bounty2.save()
+      bounty3.save()
 
-Bounty.all()
+      Bounty.all()
 
-binding.pry
-nil
+      binding.pry
+      nil
